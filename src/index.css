@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap');
+@import 'antd-mobile/dist/antd-mobile.css'; 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind forms;
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.fon{
+    font-size: 14px;
+    color: #a6a9af;
+}
+.htext{
+    font-size: 36px;
+}
+.lh{
+    font-size: 10px;
+}
+.pretext{
+    font-size: 35px;
+}
+/*bottom navigation */
+#tab-bar.demo {
+    display: flex;
+    flex-direction: column;
+}
+#tab-bar .demoName {
+    height: 40px;
+}
+#tab-bar .demo-preview-item .am-tab-bar {
+    background-color: white;
+}
